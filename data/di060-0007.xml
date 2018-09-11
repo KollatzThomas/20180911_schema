@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+		
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DI 60, Nr. 7</title>
+        <author>Eberhard J. Nikitsch</author>
+      </titleStmt>
+      <editionStmt>
+        <p>Deutsche Inschriften Online: <ref type="external" target="http://www.inschriften.net/rest/di060/articles/di060-0007"/></p>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Akademie der Wissenschaften und der Literatur | Mainz - Digitale Akademie</authority>
+        <availability>
+          <licence>Bereitgestellt unter einer <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 Interational Lizenz (CC BY 4.0)</ref></licence>
+          <p>Bei Verwendung müssen Sie die Namen des Urhebers und der Zuschreibungsempfänger, den Rechtevermerk, den Lizenzvermerk, den Haftungsausschluss und folgenden Link zum Material angeben: <ref type="external" target="http://nbn-resolving.de/urn:nbn:de:0238-di060mz08k0000703"/></p>
+        </availability>
+        <date>2004</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Rhein-Hunsrück-Kreis I</title>
+        <respStmt>
+          <resp>Gesammelt und bearbeitet von</resp>
+          <name>Eberhard J. Nikitsch</name>
+        </respStmt>
+        <biblScope unit="volume">Band <num>60</num> der Reihe "Die Deutschen Inschriften"</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Deutsche Inschriften Online</repository>
+            <idno type="urn">di060mz08k0000703</idno>
+            <altIdentifier>
+              <idno type="catalogue">di060-0007</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="uid">8</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msPart xml:id="di060-0007-01">
+            <msIdentifier>
+              <idno>di060-0007-01</idno>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>Grabstein der Audulpia. Im Jahr 1951 "bei der Fundamentierung eines Stahlmastes für die Oberleitung der Eisenbahn am Rande der Marienberger Straße"<note n="1">Vgl. dazu die Hinweise bei Pauly und Neumayer. - Die Fundstelle liegt im Bereich des frühchristlichen Gräberfeldes "Im Proffen"; vgl. dazu Einleitung Kap. 4.1.1.</note> gefunden, jetzt innen an der Westwand von St. Severus angebracht. Nahezu quadratische Platte aus Kalkstein mit liniengerahmtem Feld, darin siebenzeilige Inschrift zwischen Linien. Die nur zum Teil beschriebene letzte Zeile ist durch eine Zickzack-Linie gefüllt. Die Ränder sind leicht beschädigt, der untere Randstreifen sowie die untere Hälfte der letzten Zeile fehlen.</p>
+                    <dim>H. 46, B. 55, Bu. 4-5 cm.</dim>
+                  </support>
+                  <condition n="0">erhalten</condition>
+                </supportDesc>
+              </objectDesc>
+              <typeDesc>
+                <typeNote>Vorkarolingische Kapitalis, Typ 2 (Fränkische Schrift).</typeNote>
+              </typeDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>
+                  <settlement>Boppard</settlement>
+                  <placeName>Kath. Pfarrkirche St. Severus</placeName>
+                </origPlace>
+                <origDate>
+                  <date from="0551-01-01" to="0700-12-31" datingPoint="0700BBE9400BDBB3">2.H.6.-7.Jh.?</date>
+                </origDate>
+              </origin>
+            </history>
+          </msPart>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text corresp="#di060-0007-01">
+        <body>
+          <div type="edition"><div type="textpart" subtype="section" xml:id="di060-0007-01-01">
+          <lb n="1"/><lg type="par">
+            <l n="lno">HIC REQVIISCIT <lb n="2"/> IN PACE <hi rend="ligature">AV</hi>DVLPI<lb n="3"/>A VIXIT ANNVS <lb n="4"/></l>
+            <l n="lno">SEPTVAGENTA <lb n="5"/> ET QVINQVI OVIIT <lb n="6"/> OCTAVO K(A)L(ENDAS)</l>
+            <l n="lno">IV<lb n="7"/>NIAS</l>
+          </lg>
+        </div></div>
+          <div type="apparatus"/>
+          <div type="translation">
+            <ab>Hier ruht in Frieden Audulpia. Sie lebte 75 Jahre. Sie starb am 8. (Tag) vor den Kalenden des Juni (25. Mai).</ab>
+          </div>
+          <div type="commentary">
+            <ab>Die in scriptura continua eingehauene fränkische Schrift erhält durch Schaftverlängerung (bei <hi rend="italic">D</hi>, <hi rend="italic">E</hi>, <hi rend="italic">L</hi>, <hi rend="italic">N</hi>,<hi rend="italic"> P</hi>, <hi rend="italic">R</hi> und einmal bei <hi rend="italic">T</hi>) sowie durch die Verwendung des rautenförmigen <hi rend="italic">O</hi> ihr charakteristisches Aussehen. Weiterhin sind folgende auffällige Schreibweisen zu beobachten: spitzes <hi rend="italic">A</hi> mit linksschrägem Mittelbalken, <hi rend="italic">E</hi> mit verkürzten Balken, <hi rend="italic">G</hi> mit unverbunden um den unteren Bogenabschnitt halbkreisförmig gelegter Cauda, <hi rend="italic">K</hi> mit längerem unteren Schrägbalken, <hi rend="italic">L</hi> mit linksschräg verlängertem Balken sowie unziales <hi rend="italic">Q</hi> mit offenem Bogen und unverbunden nach rechts unten weisender Cauda und offenes <hi rend="italic">R</hi> mit außen am Bogen ansetzender gerader Cauda. Eine neue, außerhalb Boppards nur ganz vereinzelt nachweisbare Buchstabenform<note n="2">Vgl. dazu Einleitung Kap. 5.1.</note> zeigt sich in der Ausführung des <hi rend="italic">S</hi>, dessen Bögen an einen hier linksschräg gestellten und beidseitig verlängerten Schaft angesetzt sind, so daß ein X-ähnlicher Buchstabe entsteht. Insgesamt sind die kräftigen Sporen und dreieckig verbreiterten Buchstabenenden auffällig, sowie die weiten Winkel bei <hi rend="italic">A</hi> und <hi rend="italic">V</hi>.
+Die vom klassischen Latein abweichenden Formen <hi rend="italic">REQVIISCIT</hi> statt <hi rend="italic">REQVIESCIT</hi>, <hi rend="italic">ANNVS</hi> statt <hi rend="italic">ANNOS</hi>, <hi rend="italic">SEPTVAGENTA</hi> statt <hi rend="italic">SEPTUAGINTA</hi>, <hi rend="italic">QVINQVI</hi> statt <hi rend="italic">QVINQVE</hi> und <hi rend="italic">OVIIT</hi> statt <hi rend="italic">OBIIT</hi> sind Merkmale spätantik-frühmittelalterlichen Sprachwandels und auch sonst in frühchristlichen Inschriften nachzuweisen<note n="3">Vgl. dazu Boppert, Inschriften pass. sowie oben Nr. 4 Anm. 3.</note>.
+Mit Audulpia als weiblicher Form des Männernamens Audulfus<note n="4">Vgl. dazu Morlet, Noms I 45 und Förstemann, Namenbuch 204f. - Zwar konnten bislang beide Namensformen in vergleichbaren Inschriften nicht nachgewiesen werden, dagegen häufig im sonstigen Namenmaterial. Die von germanisch -wulbjo 'Wölfin' im Zweitelement abgeleiteten Namen wie Waldulpia, Odulpa, Rihhulba bzw. in ihrer männlichen Form Audulfus, Odulfius, Hruadulp kommen vom 7. bis zum 9. Jh. fast nur im fränkischen Raum (Mittelrhein, Hessen, Südrheinfranken) vor (freundlicher Hinweis von Herrn Prof. Dr. Wolfgang Haubrichs, Saarbrücken, vom 11. Juli 2001).</note> wird eine in hohem Alter verstorbene Vertreterin der fränkischen Bevölkerung Boppards faßbar. Während sich das Formular ihrer Grabinschrift im Grunde nur durch das hier verwendete <hi rend="italic">REQVIESCIT</hi> - statt <hi rend="italic">QVIESCIT</hi> - von der Gruppe der älteren Bopparder Grabinschriften unterscheidet, stellt die neue, durch Schaftverlängerung und eckige Buchstabenformen geprägte Schriftart eine grundlegende Veränderung dar<note n="5">Vgl. dazu ausführlich Einleitung Kap. 5.1.</note>, die wohl mit der allmählichen Durchdringung der germanischen und gallischen Provinzen seit dem 5. Jahrhundert durch die fränkischen Stämme zusammenhängt. Die folgerichtig von Bauer erstmals konsequent als "fränkische Schrift" bezeichnete Variante der vorhergehenden "römisch-christlichen" Schrift<note n="6">Vgl. dazu Bauer, Epigraphik 12.</note> ist daher zeitlich später anzusetzen<note n="7">Vgl. zur Datierung Einleitung Kap. 4.1.1.</note>. Dieser Befund wird durch das hier ebenfalls erstmals nachweisbare typisch fränkische Zickzack-Ornament gestützt.</ab>
+          </div>
+          <div type="bibliography">
+            <list n="literature">
+              <item>Röder, Fundbericht, Abb. 3.</item>
+              <item>Pauly, Geschichte 1, Abb. 5.</item>
+              <item>Pauly, St. Severus 13 mit Abb.</item>
+              <item>Kdm. Rhein-Hunsrück 2.1, 416.</item>
+              <item>Neumayer, Grabfunde 170.</item>
+              <item>Volk, Boppard, Abb. S. 71.</item>
+            </list>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
+
+</TEI>
+		

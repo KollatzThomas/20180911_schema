@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Meir Rothschild ben Anschel Rothschild, gest. 1812-09-19, Jüdischer Friedhof Frankfurt am Main, Battonnstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>ffb-80</idno>
+    <idno type="url">http://www.steinheim-institut.de:80/cgi-bin/epidat?id=ffb-80</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de:80/cgi-bin/epidat?id=ffb-80</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+    <msDesc>
+     <msIdentifier>
+      <repository>epidat</repository>
+      <idno>ffb-80</idno>
+      <altIdentifier>
+       <idno type="html">http://www.steinheim-institut.de:80/cgi-bin/epidat?id=ffb-80</idno>
+       <note/>
+      </altIdentifier>
+      <altIdentifier>
+       <idno type="xml">http://www.steinheim-institut.de:80/cgi-bin/epidat?id=ffb-80-t</idno>
+       <note/>
+      </altIdentifier>
+     </msIdentifier>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>87 x 56 x 13 cm</dim>
+          </dimensions>
+          sehr schlichte hochrechteckige Stele mit geradem Abschluß. Gebogene Kopfzeile im erhöhten Rahmen. Keinerlei Verzierungen oder Ornamente. Als Abkürzungszeichen Punkte und (etwas aufwendiger gestaltete) Tilden.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>Verwitterungen in den letzten beiden Zeilen und besonders am linken Rahmen.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate>
+        <date notBefore='1812-09-19'>1812-09-19</date>
+       </origDate>
+       <origPlace>
+        <country type="ISO_3166" key="XA-DE-HE">
+         Germany
+         <region>Hesse</region>
+        </country>
+        <settlement type='city' key='tgn:7005293' ref='http://vocab.getty.edu/tgn/7005293'>
+         Frankfurt am Main, Battonnstraße 
+         <geogName ref="http://d-nb.info/gnd/4331943-9">
+          Jüdischer Friedhof
+          <geo decls="#WGS">50.1119 8.689675</geo>
+         </geogName>
+        </settlement>
+       </origPlace>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <schemaRef url="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng">
+    <desc>EpiDoc: TEI XML for epigraphic Documents Schema</desc>
+   </schemaRef>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Andreas Hemstege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id='WGS' datum='WGS84'>World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ffb-80-1" sex='1'>
+      <persName ref="http://d-nb.info/gnd/11879132X">Meir Rothschild ben Anschel Rothschild</persName>
+      <death when='1812-09-19'/>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsffb/xl/ffb0080.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date notBefore='1991' notAfter='1996'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsffb/xl/ffb0080A.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date notBefore='1991' notAfter='1996'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏כ״ה מאיר ר״ש תקע״ג‏‎
+     <lb n='2'/>
+     ‎‏פה טמון ג״ץ כהר״ר משה מאיר‏‎
+     <lb n='3'/>
+     ‎‏בן המנוח כ״ה אנשיל רויט‏‎
+     <lb n='4'/>
+     ‎‏שילד ז״ל נפטר ליל מש״ק‏‎
+     <lb n='5'/>
+     ‎‏ונקבר למחרתו ביום א׳‏‎
+     <lb n='6'/>
+     ‎‏ערב חג הסוכת תקע״ג‏‎
+     <lb n='7'/>
+     ‎‏לפ״ק תהא נשמתו צרורה‏‎
+     <lb n='8'/>
+     ‎‏בצרור החיים [ע״נ] אי״ו שר״ר‏‎
+     <lb n='9'/>
+     ‎‏ע״נ שצו״צ שבג״ע אמן‏‎
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Der geehrte Herr Meir Rothschild 573
+     <lb n='2'/>
+     Hier ist geborgen der Spendeneinnehmer, der geehrte Meister, Herr Mosche Meir,
+     <lb n='3'/>
+     Sohn des Seligen, des geehrten Herrn Anschel Rothschild, 
+     <lb n='4'/>
+     sein Andenken zum Segen, verschieden in der Nacht des Ausgangs des heiligen Schabbat
+     <lb n='5'/>
+     und begraben am Tag darauf, am Tag 1,
+     <lb n='6'/>
+     Vorabend des Laubhüttenfestes, 573
+     <lb n='7'/>
+     nach kleiner Zählung. Seine Seele sei eingebunden
+     <lb n='8'/>
+     in das Bündel des Lebens mit den Seelen von Awraham, Jizchak und Jaakow, Sara, Riwka und Rachel,
+     <lb n='9'/>
+     mit den Seelen der übrigen gerechten Männer und Frauen, die im Garten Eden. Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Punkte, Tilden; Satzzeichen: ?</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Keine Eulogie, nur Angabe von Titeln. Besonders lange Segensformel am Schluß, wobei der erste Teil ausgeschrieben ist. Im Memorbuch sind Mosche Meir Rothschild mehr Titeln beigegeben als in der Grabinschrift: "der Vornehme, der Einflußreiche, der Kastenmeister, unser Lehrer, unser Meister, der geehrte Meister, Herr ...".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Laut Dietz war Mayer Amschel Rothschild zum grünen Schild am 25. Februar 1744 im Hinterhaus zur Pfanne geboren und mit kaum 13 Jahren als armes Waisenkind auf sich selbst angewiesen. Trotz aller Schwierigkeiten hat er sich großes persönliches Ansehen erworben. U.a. wurde er ernannt zum hochfürstlich hessen hanau'schen Hoffaktor, später auch zum hessen-kasseler Oberhoffaktor und im Jahr 1810 zum Departementsrat. Er starb am 19.9.1812, zwei Tage nach Errichtung seines Testaments, und hinterließ zehn Kinder. Seine Gattin Gutle Schnapper starb, fast 100 Jahre alt, am 7.5.1849.</p>
+    <p>Mosche Meir wurde am 23.2.1743 geboren; er war Bankier (Gründer des Bankhauses Rothschild) und wohnte im Haus grüner Schild' (Einschrb.: Pfanne).</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+   </div>
+  </body>
+ </text>
+</TEI>
